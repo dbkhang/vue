@@ -1,0 +1,11 @@
+:root {
+    --font-size: 14px;
+    --border-radius: 4px;
+    --height-input: 36px;
+    --width-input-info-large: 800px;
+    --width-input-info-medium: 374px;
+    --width-input-info-small-1: 152px;
+    --width-input-info-small-2: 210px;
+    --height-header: 56px;
+    --height-header-table: 68px
+}

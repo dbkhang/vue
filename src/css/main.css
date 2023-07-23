@@ -1,0 +1,40 @@
+@import url(./global/variable.css);
+@import url(./global/fonts.css);
+@import url(../assets/icons/icon.css);
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto-Regular";
+    font-size: var(--font-size);
+    margin: 0;
+}
+
+input[type="checkbox"]:hover,
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+input[type="date"] {
+    font-family: "Roboto-Regular";
+}
+
+.container {
+    position: relative;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    /* height: 100%; */
+}
+
+
+/* right top */
+
+.content__right {
+    width: calc(100vw - 200px);
+    height: 100vh;
+}
+

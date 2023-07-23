@@ -1,0 +1,80 @@
+.textfield{
+    margin-right: 10px;
+    margin-bottom: 22px;
+    /* position: relative; */
+}
+.textfield__label {
+    padding-top: 2px;
+    font-weight: 600;
+}
+
+.textfield>div> input {
+    box-sizing: border-box;
+    height: 36px;
+    margin-top: 8px;
+    border: 1px solid #babec5;
+    border-radius: 4px;
+    padding: 8px 10px 9px 12px;
+    width: 100%;
+}
+/* rgb(158 158 158)*/
+
+.textfield > div > input:hover {
+    background-color: #F6F6F6;
+}
+
+.textfield > div > input:focus {
+    border: 1px solid #50B83C;
+    outline: none;
+}
+
+.icon__required {
+    color: #E61D1D;
+    margin-left: 5px;
+}
+
+
+.error-red {
+    outline: none;
+    border: #E61D1D;
+}
+/* .textfield > div > input.input-small-1 {
+    border: 1px solid #E61D1D;
+    outline: none;
+} */
+
+/* .textfield > div > input.err-input {
+    border: 1px solid #E61D1D;
+    outline: none;
+} */
+
+
+
+.errors-message  {
+    min-height: 22px;
+}
+.errors-message {
+    color: red;
+
+}
+
+.small-1 {
+    width: 168px;
+}
+
+.small-2 {
+    width: 220px;
+}
+.medium {
+    width: 400px;
+}
+/* 374 */
+.large {
+    width: 826px;
+}
+
+
+.input-invalid {
+    border: 1px solid #E61D1D !important;
+}
+

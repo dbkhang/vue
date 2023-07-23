@@ -1,0 +1,28 @@
+.right__top {
+    display: flex;
+    justify-content: space-between;
+    height: var(--height-header);
+    align-items: center;
+    padding: 0px 24px;
+}
+
+.right__top-left > span {
+    margin: 0 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right__top-right {
+    display: flex;
+    align-items: center;
+}
+
+.right__top-right__user {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.right__top-right__user > span {
+    margin: 0 12px;
+}
